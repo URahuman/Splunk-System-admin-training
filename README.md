@@ -85,7 +85,7 @@ sudo su
 
 Enable boot start
 ``` bash
-/opt/splunk/bin/splunk enable boot-start -username splunk
+/opt/splunk/bin/splunk enable boot-start -user splunk
 ```
 
 That's it... you have successfully installed Splunk on Linux..!!
