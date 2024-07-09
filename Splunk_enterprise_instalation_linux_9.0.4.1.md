@@ -51,12 +51,12 @@ cd /home/splunk
 
 Download Splunk (Based on the version you want, you can get this command from https://www.splunk.com/en_us/download/splunk-enterprise/thank-you-enterprise.html)
 ```bash
-wget -O splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.0.4.1/linux/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz"
+wget -O splunk-9.2.2-d76edf6f0a15-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.2.2/linux/splunk-9.2.2-d76edf6f0a15-Linux-x86_64.tgz"
 ```
 
 Extract the tar package      (The tar command is used to compress a group of files into an archive)
 ```bash
-tar -xvf splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz -C /opt/
+tar -xvf splunk-9.2.2-d76edf6f0a15-Linux-x86_64.tgz -C /opt/
 ```
 
 Navigate to Splunk bin directory
